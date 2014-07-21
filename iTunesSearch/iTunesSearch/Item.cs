@@ -8,36 +8,44 @@ namespace iTunesSearch
 {
 
     public class Item
-    {
-        
-        public string wrapperType { set; get; }
-        public string kind { set; get; }
-        public string artistId { set; get; }
-        public string collectionId { set; get; }
-        public string trackId { set; get; }
-        public string artistName { set; get; }
-        public string collectionName { set; get; }
-        public string trackName { set; get; }
-        public string collectionCensoredName { set; get; }
-        public string trackCensoredName { set; get; }
-        public string artistViewUrl { set; get; }
-        public string trackViewUrl { set; get; }
-        public string previewUrl { set; get; }
-        public string artworkUrl60 { set; get; }
-        public string artworkUrl100 { set; get; }
-        public float collectionPrice { set; get; }
-        public float trackPrice { set; get; }
-        public string collectionExplicitness { set; get; }
-        public string trackExplicitness { set; get; }
-        public string discCount { set; get; }
-        public string discNumber { set; get; }
-        public string trackCount { set; get; }
-        public string trackNumber { set; get; }
-        public string trackTimeMillis { set; get; }
-        public string country { set; get; }
-        public string currency { set; get; }
-        public string primaryGenreName { set; get; }
+    { 
+        public Item()
+        {
+            GenreIDs = new List<string>();
+            Genres = new List<string>();
 
+        }
+
+        public string WrapperType { set; get; }
+        public string Kind { set; get; }
+        public string ArtistID { set; get; }
+        public string CollectionID { set; get; }
+        public string TrackId { set; get; }
+        public string ArtistName { set; get; }
+        public string CollectionName { set; get; }
+        public string TrackName { set; get; }
+        public string CollectionCensoredName { set; get; }
+        public string TrackCensoredName { set; get; }
+        public string ArtistViewUrl { set; get; }
+        public string FeedUrl { set; get; }
+        public string TrackViewUrl { set; get; }
+        public string PreviewUrl { set; get; }
+        public string ArtworkUrl60 { set; get; }
+        public string ArtworkUrl100 { set; get; }
+        public float CollectionPrice { set; get; }
+        public float TrackPrice { set; get; }
+        public string CollectionExplicitness { set; get; }
+        public string TrackExplicitness { set; get; }
+        public string DiscCount { set; get; }
+        public string DiscNumber { set; get; }
+        public string TrackCount { set; get; }
+        public string TrackNumber { set; get; }
+        public string TrackTimeMillis { set; get; }
+        public string Country { set; get; }
+        public string Currency { set; get; }
+        public string PrimaryGenreName { set; get; }
+        public List<string> GenreIDs { set; get; }
+        public List<string> Genres { set; get; } 
     }
 
 }

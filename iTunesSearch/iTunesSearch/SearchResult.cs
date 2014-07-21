@@ -9,10 +9,10 @@ namespace iTunesSearch
     {
         public SearchResult()
         {
-            results = new List<Item>();
+            Results = new List<Item>();
         }
 
-        public int resultCount { set; get; }
-        public List<Item> results { set; get; }
+        public int ResultCount { set; get; }
+        public List<Item> Results { set; get; }
     }
 }
