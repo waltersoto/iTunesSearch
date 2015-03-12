@@ -13,18 +13,18 @@ namespace iTunesConsole
                 Parameters = { {"country","us"} }
             };
 
-            var result = s.Search("Programacion");
+            var result = s.Search(".NET Rocks");
 
             foreach (var item in result.Results.Take(5))
             {
                 Console.WriteLine(item.TrackName);
-                Console.WriteLine("por {0}", item.ArtistName);
+                Console.WriteLine("by {0}", item.ArtistName);
                 Console.WriteLine(item.FeedUrl); 
                 Console.WriteLine();
             }
 
             Console.WriteLine();
-            Console.WriteLine("Presione cualquier tecla para continuar...");
+            Console.WriteLine("Press any key...");
             Console.ReadLine();
         }
  

@@ -1,0 +1,5 @@
+C:\Users\sotoreyesw\Documents\GitHub\iTunesSearch\iTunesSearch\iTunesSearch\bin\Debug\iTunesSearch.dll
+C:\Users\sotoreyesw\Documents\GitHub\iTunesSearch\iTunesSearch\iTunesSearch\bin\Debug\iTunesSearch.pdb
+C:\Users\sotoreyesw\Documents\GitHub\iTunesSearch\iTunesSearch\iTunesSearch\obj\Debug\iTunesSearch.csprojResolveAssemblyReference.cache
+C:\Users\sotoreyesw\Documents\GitHub\iTunesSearch\iTunesSearch\iTunesSearch\obj\Debug\iTunesSearch.dll
+C:\Users\sotoreyesw\Documents\GitHub\iTunesSearch\iTunesSearch\iTunesSearch\obj\Debug\iTunesSearch.pdb
